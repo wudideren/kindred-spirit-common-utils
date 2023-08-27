@@ -1,8 +1,32 @@
 # Compiled class file
 *.class
 
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Intellij
+*.ipr
+*.iml
+*.iws
+.idea/
+
+# Maven
+target/
+
+# Gradle
+build
+.gradle
+
 # Log file
 *.log
+
+# out
+**/out/
+
+# Mac
+.DS_Store
 
 # BlueJ files
 *.ctxt
